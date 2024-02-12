@@ -1,6 +1,20 @@
 title: Data Exploration Blog
 theme: jekyll-theme-minimal
 
+collections:
+  Hall_of_fame:
+    output: true
+    permalink: /Lab01/:path/
+  Dot_to_dot_by_hand:
+    output: true
+    permalink: /Lab02/:path/
+  Dot_to_dot_ipynb:
+    output: true
+    permalink: /Lab03/:path/
+  Vocal_analysis:
+    output: true
+    permalink: /Lab04/:path/
+
 # # Page tree that defines the navigation structure
 # nav:
 #   - Home: index.md

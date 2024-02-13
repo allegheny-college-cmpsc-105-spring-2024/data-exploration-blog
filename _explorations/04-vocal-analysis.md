@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Vocal Analysis
 permalink: explorations/04-vocal-analysis.md
 image_path: 

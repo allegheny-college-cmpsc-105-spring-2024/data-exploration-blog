@@ -1,5 +1,5 @@
 ---
-layout: base
+layout: default
 title: Dot to dot in python
 permalink: explorations/03-dot-to-dot-2.md
 image_path: 

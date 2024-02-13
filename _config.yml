@@ -1,10 +1,10 @@
 title: Data Exploration Blog
-baseurl: "/data-exploration-blog"
+baseurl: "/data-exploration-blog/"
 # theme: jekyll-theme-minimal
 author: write your name
 # google_analytics: [Your Google Analytics tracking ID]
 
-remote_theme: jekyll/minima
+theme: minima
 
 collections:
   explorations:

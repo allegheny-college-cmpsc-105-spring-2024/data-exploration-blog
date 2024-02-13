@@ -10,5 +10,5 @@ collections:
     output: true
 
 header_pages:
-  - index.md
+  - explorations.md
   - about.md

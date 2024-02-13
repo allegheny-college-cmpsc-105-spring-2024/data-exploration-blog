@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Vocal Analysis
-permalink: explorations/04-vocal-analysis.md
+permalink: explorations/04-vocal-analysis
 image_path: 
 ---
 

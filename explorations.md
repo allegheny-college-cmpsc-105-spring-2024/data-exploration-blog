@@ -1,6 +1,8 @@
 ---
 layout: default
 title: My Data Explorations
+permalink: /explorations
+nav: true
 ---
 {% for lab in site.explorations %}
     <div class="general">

@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Vocal Analysis
+order: 4
 permalink: explorations/04-vocal-analysis
+nav: true
 image_path: 
 ---
 

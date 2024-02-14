@@ -1,6 +1,7 @@
 ---
 layout: default
 title: My Data Explorations
+nav: true
 ---
 
 INDEX: This site will be updated by each student. Traffic patterns

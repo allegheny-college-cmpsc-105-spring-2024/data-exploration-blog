@@ -1,7 +1,9 @@
 ---
 layout: default
 title: Dot to dot in python
-permalink: explorations/03-dot-to-dot-2
+order: 3
+permalink: explorations/dot-to-dot-2
+nav: true
 image_path: 
 ---
 

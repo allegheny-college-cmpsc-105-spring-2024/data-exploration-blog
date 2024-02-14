@@ -12,4 +12,4 @@ TODO: copy in the necessary images to assets/images
 
 Managing data and controlling figure configuration is easier in python.
 
-[Back](/explorations.html/)
+[Back](:site/explorations/)

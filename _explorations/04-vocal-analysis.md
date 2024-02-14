@@ -11,4 +11,4 @@ TODO: copy in the necessary images to assets/images
 
 Storytelling with data has considerable hidden complexity.
 
-[Back](/explorations.html/)
+[Back](:site/explorations/)

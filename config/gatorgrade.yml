@@ -1,0 +1,108 @@
+setup: |
+  echo "Done installing project dependencies!"
+---
+
+# Reminder for ^^^:
+# All commands executed in the setup block are done in a
+# one-by-one fashion from the current working directory. This means
+# that there is no history associated with running the commands and
+# thus multiple commands must be run in a single chain.
+
+# perform checks on a file
+- README.md:
+    - description: Ensure that the README.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in README.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+
+- blogpost.md:
+    - description: Ensure that the blogpost.md file exists
+      check: ConfirmFileExists
+    - description: Use numbered list with 1. in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: "1."
+        count: 1
+        exact: false
+    - description: Use numbered list with 2. in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: "2."
+        count: 1
+        exact: false
+    - description: Use numbered list with 3. in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: "3."
+        count: 1
+        exact: false
+    - description: Use correct image name (line-initial-ipynb) in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: ./assets/images/line-initial-ipynb.
+        count: 1
+        exact: true
+    - description: Use correct image name (line-01-ipynb) in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: ./assets/images/line-01-ipynb.
+        count: 1
+        exact: true
+    - description: Use correct image name (line-02-ipynb) in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: ./assets/images/line-02-ipynb.
+        count: 1
+        exact: true
+    - description: Use correct image name (line-03-ipynb) in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: ./assets/images/line-03-ipynb.
+        count: 1
+        exact: true
+    - description: Use correct image name (line-04-ipynb) in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: ./assets/images/line-04-ipynb.
+        count: 1
+        exact: true
+    - description: Confirm that the blogpost.md file has at least 4 markdown headings
+      check: CountMarkdownTags
+      options:
+        tag: heading
+        count: 4
+        exact: false
+    - description: Top Level Header has correct words in blogpost.md as instructed in README.md
+      check: MatchFileFragment
+      options:
+        fragment: "# Data Transformation in a Python Notebook"
+        count: 1
+        exact: false
+    - description: H2 reference heading is correct for References in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: "## References"
+        count: 1
+        exact: false
+    - description: use correct image name (final-ipynb) in blogpost.md
+      check: MatchFileFragment
+      options:
+        fragment: ./assets/images/final-ipynb.
+        count: 1
+        exact: false
+    - description: Confirm that the markdown file has the correct number of fenced code blocks
+      check: CountMarkdownTags
+      options:
+        tag: code_block
+        count: 2
+        exact: false    
+
+  # count number of commits in the GitHub repository
+- description: Have at least 5 of commits in repository
+  check: CountCommits
+  options:
+    count: 5

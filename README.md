@@ -1,4 +1,3 @@
-# Data Exploration Blog
+# Lab 5 - Data Exploration Blog with Analytics
 
-README: This site will be updated by each student. Traffic patterns
-will be analyzed using Google Analytics.
+Traffic patterns will be analyzed using Google Analytics.

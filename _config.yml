@@ -1,6 +1,8 @@
 title: Data Exploration Blog
-author: write your name
-# google_analytics: [Your Google Analytics tracking ID]
+# TODO: write your name below
+author: 
+# TODO: write your Google Analytics tracking ID below
+google_analytics: 
 
 theme: minima
 

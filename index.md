@@ -1,9 +1,10 @@
 ---
 layout: home
-title: About 
+title: About the course
 nav: true
-image_path: assets/images/magnifying-glass-logo.jpeg
 ---
+
+![logo](./assets/images/magnifying-glass-logo.jpeg){:width="200"}
 
 ## Allegheny College, CMPSC 105.00 Data Exploration
 

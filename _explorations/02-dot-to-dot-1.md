@@ -2,7 +2,7 @@
 layout: default
 title: Dot to dot in Google Sheets
 order: 2
-permalink: explorations/dot-to-dot-1
+permalink: explorations/lab02
 nav: true
 image_path: 
 ---

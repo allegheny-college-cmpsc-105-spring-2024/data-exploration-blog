@@ -1,8 +1,8 @@
 ---
-layout: default
+layout: page
 title: Hall of Fame
 order: 1
-permalink: explorations/hall-of-fame
+permalink: explorations/lab01
 nav: true
 image_path: 
 ---

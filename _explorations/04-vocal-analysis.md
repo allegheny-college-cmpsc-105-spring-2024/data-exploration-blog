@@ -2,7 +2,7 @@
 layout: default
 title: Vocal Analysis
 order: 4
-permalink: explorations/04-vocal-analysis
+permalink: explorations/lab04
 nav: true
 image_path: 
 ---

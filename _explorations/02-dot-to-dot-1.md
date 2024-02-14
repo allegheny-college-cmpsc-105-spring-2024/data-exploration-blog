@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dot to dot in Google Sheets
+title: "Lab 2: Dot to dot in Google Sheets"
 order: 2
 permalink: explorations/lab02
 nav: true

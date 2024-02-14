@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Hall of Fame
+layout: default
+title: "Lab 1: Hall of Fame"
 order: 1
 permalink: explorations/lab01
 nav: true

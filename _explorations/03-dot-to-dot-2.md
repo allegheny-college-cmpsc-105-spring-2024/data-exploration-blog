@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Dot to dot in python
+title: "Lab 3: Dot to dot in python"
 order: 3
 permalink: explorations/lab03
 nav: true

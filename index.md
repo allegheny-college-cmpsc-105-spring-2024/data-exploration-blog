@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: My Data Explorations
 nav: true
 ---

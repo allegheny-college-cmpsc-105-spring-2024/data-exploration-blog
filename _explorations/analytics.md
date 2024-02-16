@@ -1,18 +1,13 @@
 ---
 layout: post
-title: "Lab 2: Dot to dot in Google Sheets"
-order: 2
+title: "Analytics"
 permalink: explorations/analytics
 nav: true
-image_path: 
 ---
 
-TODO: copy in your blogpost.md from lab 2. Make any updates you would like.
-TODO: copy in the necessary images to assets/images
+TODO: Look at your analytics data. Write about the
+different sources of data contributing to the analytics automatic dashboards.
+If you were a real restaurant owner, explain how this information could help
+you improve your business and why you came to your conclusions.
 
-Managing small amounts of data is possible in Google Sheets, but
-applying transformations with click and drag would never be practical
-for large quantities of data, or even just one second of audio which
-has 48000 samples!
-
-[Back]({{ site.explorations.permalink }})
+TODO: include at least one analytics plot to back up your claims.

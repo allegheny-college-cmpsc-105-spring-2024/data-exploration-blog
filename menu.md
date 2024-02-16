@@ -2,6 +2,7 @@
 layout: page
 title: menu
 permalink: /menu
+nav: true
 ---
 
 - TODO: the headings in this file must be H2 or smaller

@@ -2,7 +2,7 @@
 layout: post
 title: "Lab 2: Dot to dot in Google Sheets"
 order: 2
-permalink: explorations/lab02
+permalink: explorations/analytics
 nav: true
 image_path: 
 ---

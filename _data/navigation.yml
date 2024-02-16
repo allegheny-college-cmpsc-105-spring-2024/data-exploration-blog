@@ -1,0 +1,14 @@
+main:
+  - title: "concept"
+    url: /concept/
+  - title: "menu"
+    url: /menu/
+  - title: "contact"
+    url: /contact/
+  - title: "explorations"
+    - page: review 1
+      url: /explorations/review1.md
+    - page: review 2
+      url: /explorations/review2.md
+    - page: my analytics
+      url: /explorations/analytics.md

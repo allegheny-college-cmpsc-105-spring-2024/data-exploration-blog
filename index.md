@@ -1,6 +1,6 @@
 ---
 layout: home
-title: About the course
+title: Restaurant Concept
 nav: true
 ---
 

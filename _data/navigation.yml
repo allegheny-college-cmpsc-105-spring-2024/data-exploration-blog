@@ -6,9 +6,5 @@ main:
   - title: "contact"
     url: /contact/
   - title: "explorations"
-    - page: review 1
-      url: /explorations/review1
-    - page: review 2
-      url: /explorations/review2
-    - page: my analytics
-      url: /explorations/analytics
+    url: /exploration.html
+

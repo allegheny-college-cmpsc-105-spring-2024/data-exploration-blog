@@ -1,12 +1,12 @@
 ---
 layout: page
-title: Explorations
+title: explorations
 permalink: /explorations
 nav: true
 ---
 
-{% for lab in site.explorations %}
+{% for item in site.explorations %}
     <div class="default">
-        <h2><a href="{{ lab.permalink }}">{{ lab.title }}</a></h2>
+        <h2><a href="{{ item.permalink }}">{{ item.title }}</a></h2>
     </div>
 {% endfor %}

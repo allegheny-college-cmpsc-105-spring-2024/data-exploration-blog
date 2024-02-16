@@ -4,6 +4,9 @@ WARNING: This repo is a website that is hosted online by GitHub. The outside
 world can see this website, so please keep that in mind as you add
 content, write commit messages, etc.
 
+- [Starter Repo for reference](https://github.com/allegheny-college-cmpsc-105-spring-2024/lab05-resto-starter)
+- [Website url](https://allegheny-college-cmpsc-105-spring-2024.github.io/lab05-resto-starter/)
+
 ## Learning outcomes
 
 After completing this lab, you should be able to:

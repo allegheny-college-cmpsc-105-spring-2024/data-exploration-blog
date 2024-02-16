@@ -12,4 +12,4 @@ TODO: set up the analytic tools in this website!
   for Search Engine Optimization
 - [Google Analytics](https://analytics.google.com/analytics/web/provision/#/provision)
 
-[Back]({{ site.url }}/explorations)
+[Back]({{ site.explorations.permalink }})

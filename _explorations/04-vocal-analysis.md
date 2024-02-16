@@ -11,4 +11,4 @@ TODO: copy in the necessary images to assets/images
 
 Storytelling with data has considerable hidden complexity.
 
-[Back]({{ site.url }}/explorations)
+[Back]({{ site.explorations.permalink }})

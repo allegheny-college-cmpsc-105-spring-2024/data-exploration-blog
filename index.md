@@ -1,6 +1,7 @@
 ---
-layout: home
-title: "About the Concept"
+layout: post
+# TODO: change the title as needed
+title: "About my restaurant"
 ---
 
 - TODO: look at the raw markdown below for examples of making links, bold, colors, quotes, etc.
@@ -11,8 +12,9 @@ title: "About the Concept"
   - use good markdown style
   - the website formatting is limited to markdown, but
   [markdown can still do a lot](https://www.markdownguide.org/tools/jekyll/)
-- TODO: As a place holder, add a heading at the end for `Reviews` and make up a quote to
-  put in this section
+- TODO: As a place holder, add a heading at the end for `Reviews` and make up two quotes to
+  put in this section.
+  - Use Markdown syntax for the quotes.
   - after the review phase, you can replace this with two real quotes from your fellow
   food critics.
 - TODO: finish up by removing _all_ unneeded material below line 6.

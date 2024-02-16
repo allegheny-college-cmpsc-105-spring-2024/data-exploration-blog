@@ -54,7 +54,7 @@ realistic, but keep in mind that this website is viewable online.
 - TODO: fill out the `index.md` with a description of the concept of your restaurant
   - `index.md` will become the home page of the website automatically, so include
     information that you think belongs on the home page.
-- TODO: fill out the `menu.md` with at least two menu items and two photos
+- TODO: fill out the `menu.md` with at least one menu item and one photo
   - `menu.md` will automatically be linked in the website header for easy access.
 - TODO: fill out the `contact.md` with fake contact information for your restaurant
   - `contact.md` will automatically be linked in the website header for easy access.

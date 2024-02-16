@@ -29,90 +29,119 @@ setup: |
         count: 0
         exact: true
 
-- _explorations/01-hall-of-fame.md:
-    - description: Ensure that the _explorations/01-hall-of-fame.md file exists
+- index.md
+    - description: Ensure that the index.md file exists
       check: ConfirmFileExists
-    - description: Write minimum of 150 words in _explorations/01-hall-of-fame.md
-      check: CountFileWords
-      options:
-        count: 150
-        exact: false
-    - description: include at least 2 images in assets/images in 01-hall-of-fame.md
+    - description: Complete all TODOs, remove the TODO markers in index.md
       check: MatchFileFragment
       options:
-        fragment: assets/images
-        count: 2
-        exact: false
-
-- _explorations/02-dot-to-dot-1.md:
-    - description: Ensure that the _explorations/02-dot-to-dot-1.md file exists
-      check: ConfirmFileExists
-    - description: Write minimum of 150 words in _explorations/02-dot-to-dot-1.md
-      check: CountFileWords
-      options:
-        count: 150
-        exact: false
-    - description: include at least 5 images in assets/images in 02-dot-to-dot-1.md
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: include heading for Reviews in index.md
       check: MatchFileFragment
       options:
-        fragment: assets/images
-        count: 5
-        exact: false
-
-- _explorations/03-dot-to-dot-2.md:
-    - description: Ensure that the _explorations/03-dot-to-dot-2.md file exists
-      check: ConfirmFileExists
-    - description: Write minimum of 150 words in _explorations/03-dot-to-dot-2.md
-      check: CountFileWords
-      options:
-        count: 150
-        exact: false
-    - description: include at least 4 images in assets/images in 03-dot-to-dot-2.md
-      check: MatchFileFragment
-      options:
-        fragment: assets/images
-        count: 4
-        exact: false
-
-- _explorations/04-vocal-analysis.md:
-    - description: Ensure that the _explorations/04-vocal-analysis.md file exists
-      check: ConfirmFileExists
-    - description: Write minimum of 250 words in _explorations/04-vocal-analysis.md
-      check: CountFileWords
-      options:
-        count: 250
-        exact: false
-    - description: include at least 3 images in assets/images in 04-vocal-analysis.md
-      check: MatchFileFragment
-      options:
-        fragment: assets/images
-        count: 3
-        exact: false
-
-- _explorations/05-google-analytics.md:
-    - description: Ensure that the _explorations/05-google-analytics.md file exists
-      check: ConfirmFileExists
-    - description: Write minimum of 150 words in _explorations/05-google-analytics.md
-      check: CountFileWords
-      options:
-        count: 150
-        exact: false
-
-    - description: use correct image name (final-ipynb) in blogpost.md
-      check: MatchFileFragment
-      options:
-        fragment: /assets/images/final-ipynb.
+        fragment: Reviews
         count: 1
         exact: false
-    - description: Confirm that the markdown file has the correct number of fenced code blocks
-      check: CountMarkdownTags
+    - description: include quotes under the reviews using Markdown syntax (in index.md)
+      check: MatchFileFragment
       options:
-        tag: code_block
+        fragment: ">"
         count: 2
-        exact: false    
+        exact: false
 
-  # count number of commits in the GitHub repository
+- menu.md
+    - description: Ensure that the menu.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in menu.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: include at least two menu item photos in menu.md
+      check: MatchFileFragment
+      options:
+        fragment: "]("
+        count: 2
+        exact: false
+    - description: remove the default image in menu.md
+      check: MatchFileFragment
+      options:
+        fragment: "magnifying-glass-logo.jpeg"
+        count: 0
+        exact: true
+
+- contact.md
+    - description: Ensure that the contact.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in contact.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: include at least one heading in contact.md
+      check: MatchFileFragment
+      options:
+        fragment: "# Hours"
+        count: 1
+        exact: true
+
+- _explorations/review1.md:
+    - description: Ensure that the _explorations/review1.md file exists
+      check: ConfirmFileExists
+    - description: Write minimum of 150 words in _explorations/review1.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+    - description: include link in markdown to the site that you reviewed in review1.md
+      check: MatchFileFragment
+      options:
+        fragment: "]("
+        count: 1
+        exact: false
+
+- _explorations/review2.md:
+    - description: Ensure that the _explorations/review2.md file exists
+      check: ConfirmFileExists
+    - description: Write minimum of 150 words in _explorations/review2.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+    - description: include link in markdown to the site that you reviewed in review2.md
+      check: MatchFileFragment
+      options:
+        fragment: "]("
+        count: 1
+        exact: false
+
+- _explorations/analytics.md:
+    - description: Ensure that the _explorations/analytics.md file exists
+      check: ConfirmFileExists
+    - description: Complete all TODOs, remove the TODO markers in analytics.md
+      check: MatchFileFragment
+      options:
+        fragment: TODO
+        count: 0
+        exact: true
+    - description: Write minimum of 150 words in _explorations/analytics.md
+      check: CountFileWords
+      options:
+        count: 150
+        exact: false
+    - description: include at least 1 image from assets/images in analytics.md
+      check: MatchFileFragment
+      options:
+        fragment: assets/images
+        count: 1
+        exact: false
+
+# count number of commits in the GitHub repository
 - description: Have a total of at least 5 local commits in repository before pushing
   check: CountCommits
   options:
-    count: 5
+    count: 9
